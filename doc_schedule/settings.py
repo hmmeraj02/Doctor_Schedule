@@ -32,6 +32,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = ['https://doclink-f9t1.onrender.com/','https://*.127.0.0.1']
+
 
 # Application definition
 
