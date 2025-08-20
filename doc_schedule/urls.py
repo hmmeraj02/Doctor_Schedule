@@ -29,6 +29,7 @@ schema_view = get_schema_view(
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
+   url="https://doclink-f9t1.onrender.com",
 )
 
 urlpatterns = [
